@@ -32,7 +32,7 @@ router.get('/:id', (req, res, next) => {
 	}).then(
 		(thing) => {
 			res.status(200).json(thing);
-		}gi
+		}
 	).catch(
 		(error) => {
 			res.status(404).json({
