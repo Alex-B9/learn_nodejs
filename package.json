@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "name": "learn_nodesjs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start:front" : "npx http-server . -p 4200 -P \"http://localhost:4200?\"",
+    "start:back" : "nodemon backend/server.js",
+    "start" : "npm run start:front & npm run start:back"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alex-B9/learn_nodesjs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alex-B9/learn_nodesjs/issues"
+  },
+  "homepage": "https://github.com/Alex-B9/learn_nodesjs#readme",
+  "description": ""
+}
