@@ -7,8 +7,9 @@
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
-    "start:front" : "npx http-server . -p 4200 -P \"http://localhost:4200?\"",
-    "start:back" : "nodemon backend/server.js",
+//    "start:front" : "npx http-server . -p 4200 -P \"http://localhost:4200?\"",
+    "start:front" : "npm run start frontend/package.json ",
+    "start:back" : "npm run start backend/package.json",
     "start" : "npm run start:front & npm run start:back"
   },
   "repository": {
